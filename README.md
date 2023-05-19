@@ -38,7 +38,7 @@ As a group, after discussing about our common interest and as we want to work on
 
 Firstly, we talked on 3D and 2D options and then we decided to focus on 2D option. For a simple tile decoration we need vinyl designs which needs to be sticked on stencil to transfer the ceramic ink. Instead of providing ready to use patterns, stickers, vinyls we preferred to work on a grid board which provides the user to make their own unique design.
 
-Tile-Deco is a concept of grid that made of acrylic and magnets and has geometric pieces which can be located on and stick by magnets to the grid in order to form various tile decorations.
+Digital Tiles is a concept of grid that made of acrylic and magnets and has geometric pieces which can be located on and stick by magnets to the grid in order to form various tile decorations.
 
 **Design Process**
 1. Grid board
@@ -54,7 +54,8 @@ Tile-Deco is a concept of grid that made of acrylic and magnets and has geometri
 [Design Process Presentation](https://www.canva.com/design/DAFavYB6CeY/SDjOxHvMFFO4icoWGjks5A/view)
 
 Tile Deco
-![](images/presentation.png)
+
+![](images/tiledeco.jpg)
 
 ## As a group we decided to develop an interface for our tile-deco and pixel-cube  projects ( maybe a website) in order to eliminate the use of grasshopper apps  and firefly plugin and make the process more accessible and easier if possible. Briefly, our main goal is to support the makers and crafts, and encourage them to use digital fabrication tools.
 
