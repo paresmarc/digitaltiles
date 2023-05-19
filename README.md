@@ -58,15 +58,21 @@ Testing with Shape Detection
 
 ![](images/code.jpg)
 
+Circle detection
+
 ![](images/circles.jpg)
 
-![](images/coins.jpg)
+![](images/coinsss.jpg)
 
 ![](images/coins.gif)
 
 ![](images/python.jpg)
 
+Shape detection and recognition
+
 ![](images/detect.gif)
+
+Scanned shapes with Open CV
 
 ![](images/scan.jpg)
 
@@ -76,28 +82,53 @@ After some discussions, we decided to use QR code detection in opencv libraries 
 
 We went back to the basic idea to detect the edges of the each geometric shapes on the grid that we designed and decided to eliminate the shades and work on lighting in order to get the best results with this basic and simple method which can be done on OpenCv and Python.
 
-## Hydraulic Tile mould
 
-![](images/cura.jpg)
+## Improving the Grasshopper grid System
 
-![](images/print.gif)
-
-![](images/mould.jpg)
-
-![](images/frame.gif)
-
-## Shapes
+Cutting shapes with Fiducial IDs
 
 ![](images/laser.gif)
 
+Fiducial Codes on Shapes
+
 ![](images/fidu.jpg)
+
+Shape with magnets
 
 ![](images/shape.jpg)
 
-![](images/system.jpg)
-
 ## Grid
+
+Gluing base grid
 
 ![](images/grid.jpg)
 
+Grid with shapes
+
+![](images/system.jpg)
+
+Grasshopper + Grid Shapes
+
 ![](images/final.jpg)
+
+## Hydraulic Tile mould
+
+Slicing shape mould
+
+![](images/cura.jpg)
+
+Printing with 1mm nozzle
+
+![](images/print.gif)
+
+Finished mould with grid support
+
+![](images/mould.jpg)
+
+Building the frame (CNC)
+
+![](images/frame.gif)
+
+System for hydraulic press
+
+![](images/hydra.gif)
