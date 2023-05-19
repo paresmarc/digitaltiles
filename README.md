@@ -27,10 +27,6 @@ We decided to continue the [first Challenge](https://github.com/paresmarc/tilede
 
 ![](images/tiledeco.jpg)
 
-First Iteration
-
-![](images/firstpattern.png)
-
 As a group, after discussing about our common interest and as we want to work on water bricks to store domestic grey water, we decided to work on something related to modularity, interchangeability, personalisation of a product… We ended up with the idea of building a DIY toolkit which provides designing unique tile decorations and patterns made of those.
 
 
@@ -50,10 +46,6 @@ Digital Tiles is a concept of grid that made of acrylic and magnets and has geom
 7. Tile production
 8. Building pattern
 
-Tile Deco
-
-![](images/tiledeco.jpg)
-
 ## As a group we decided to develop an interface for our tile-deco and pixel-cube  projects ( maybe a website) in order to eliminate the use of grasshopper apps  and firefly plugin and make the process more accessible and easier if possible. Briefly, our main goal is to support the makers and crafts, and encourage them to use digital fabrication tools.
 
 We agreed on using OPENCV shape detector. But, in order to use OPENCV we need PHYTON, ANACONDA and VISUAL STUDIO too. Firstly, we set the anaconda and phyton and opencv. Then we found a code for shape recognition-detection especially for “circle” from an image. We tested that through the anaconda and of course code had some problems and we asked from CHATGPT to fix the code. More or less the code works through the image but we needed to calibrate the parameters in order to get more accurate results. 
@@ -65,8 +57,6 @@ During the second day we continued to work on shape detection code. After detect
 Testing with Shape Detection
 
 ![](images/code.jpg)
-
-![](images/py.jpg)
 
 ![](images/circles.jpg)
 
@@ -99,8 +89,6 @@ We went back to the basic idea to detect the edges of the each geometric shapes 
 ## Grid
 
 ![](images/grid.jpg)
-
-![](images/tiledeco.jpg)
 
 ## Shapes
 
