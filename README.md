@@ -86,10 +86,6 @@ We went back to the basic idea to detect the edges of the each geometric shapes 
 
 ![](images/frame.gif)
 
-## Grid
-
-![](images/grid.jpg)
-
 ## Shapes
 
 ![](images/laser.gif)
@@ -99,3 +95,9 @@ We went back to the basic idea to detect the edges of the each geometric shapes 
 ![](images/shape.jpg)
 
 ![](images/system.jpg)
+
+## Grid
+
+![](images/grid.jpg)
+
+![](images/final.jpg)
