@@ -41,7 +41,7 @@ Firstly, we talked on 3D and 2D options and then we decided to focus on 2D optio
 Digital Tiles is a concept of grid that made of acrylic and magnets and has geometric pieces which can be located on and stick by magnets to the grid in order to form various tile decorations.
 
 **Design Process**
-1. Grid board
+1. Open CV (Python) shape detection
 2. Geometric pieces
 3. Pattern design
 4. Photo digitalisation (vector)
@@ -49,9 +49,6 @@ Digital Tiles is a concept of grid that made of acrylic and magnets and has geom
 6. Stencil
 7. Tile production
 8. Building pattern
-
-
-[Design Process Presentation](https://www.canva.com/design/DAFavYB6CeY/SDjOxHvMFFO4icoWGjks5A/view)
 
 Tile Deco
 
@@ -63,6 +60,54 @@ We agreed on using OPENCV shape detector. But, in order to use OPENCV we need PH
 
 During the second day we continued to work on shape detection code. After detecting the circles on the still images we tried to configure the code for squares, rectangle, triangle, semi/quarter circles. We used edge detection and tried to convert them to defined geometric shapes, but we had problems with some undefined ones as lemon shape or croissant shape. So, in order to solve this we worked on polygon contouring but it did not ended up with smooth curves. Then, Pietro joined to support us for using phyton libraries. 
 
+## Open CV and Python
+
+Testing with Shape Detection
+
+![](images/code.jpg)
+
+![](images/py.jpg)
+
+![](images/circles.jpg)
+
+![](images/coins.jpg)
+
+![](images/coins.gif)
+
+![](images/python.jpg)
+
+![](images/detect.gif)
+
+![](images/scan.jpg)
+
+![](images/detection.jpg)
+
 After some discussions, we decided to use QR code detection in opencv libraries for assigned geometric shapes as we did with the fiducials on Grasshopper-firefly application model during the Challenge-No2 and we wanted to combine that with Three JS Interactive Voxel Painter project as a grid base. We spent some hours on this approach. Finally, we decided that would take months to finalize the work. 
 
 We went back to the basic idea to detect the edges of the each geometric shapes on the grid that we designed and decided to eliminate the shades and work on lighting in order to get the best results with this basic and simple method which can be done on OpenCv and Python.
+
+## Hydraulic Tile mould
+
+![](images/cura.jpg)
+
+![](images/print.gif)
+
+![](images/mould.jpg)
+
+![](images/frame.gif)
+
+## Grid
+
+![](images/grid.jpg)
+
+![](images/tiledeco.jpg)
+
+## Shapes
+
+![](images/laser.gif)
+
+![](images/fidu.jpg)
+
+![](images/shape.jpg)
+
+![](images/system.jpg)
