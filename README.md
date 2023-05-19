@@ -115,11 +115,11 @@ Grasshopper + Grid Shapes
 
 Example of the Hydraulic process
 
-![](images/m1.jpg)
+![](images/m1.png)
 
-![](images/m2.jpg)
+![](images/m2.png)
 
-![](images/m3.jpg)
+![](images/m3.png)
 
 Slicing shape mould
 
