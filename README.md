@@ -53,106 +53,15 @@ Tile-Deco is a concept of grid that made of acrylic and magnets and has geometri
 
 [Design Process Presentation](https://www.canva.com/design/DAFavYB6CeY/SDjOxHvMFFO4icoWGjks5A/view)
 
+Tile Deco
 ![](images/presentation.png)
 
-1. **Grid Board**
+## As a group we decided to develop an interface for our tile-deco and pixel-cube  projects ( maybe a website) in order to eliminate the use of grasshopper apps  and firefly plugin and make the process more accessible and easier if possible. Briefly, our main goal is to support the makers and crafts, and encourage them to use digital fabrication tools.
 
-A "DIY Tool Kit" to decorate tiles and build unique patterns and combinations.  
+We agreed on using OPENCV shape detector. But, in order to use OPENCV we need PHYTON, ANACONDA and VISUAL STUDIO too. Firstly, we set the anaconda and phyton and opencv. Then we found a code for shape recognition-detection especially for “circle” from an image. We tested that through the anaconda and of course code had some problems and we asked from CHATGPT to fix the code. More or less the code works through the image but we needed to calibrate the parameters in order to get more accurate results. 
 
-Through the design process of the grid board we tried to prevent from shades and reflections which ruins the quality of the photo-digitalisation process of the vinyl. But, as the acrylic thickness and magnet sizes are defined, we couldn’t avoid from that. On the other hand, we covered the acrylic surfaces with a mat vinyl to prevent the reflections. At least we succeeded to get rid of the reflections to enhance the quality of the photo-digitalisation process. But, of course the transfer of the vinyl on the grid board was not easy, we were not satisfied with the first attempt and for the second one magnets destroyed the grid engraved vinyl and fortunately we satisfied with the third vinyl design.
+During the second day we continued to work on shape detection code. After detecting the circles on the still images we tried to configure the code for squares, rectangle, triangle, semi/quarter circles. We used edge detection and tried to convert them to defined geometric shapes, but we had problems with some undefined ones as lemon shape or croissant shape. So, in order to solve this we worked on polygon contouring but it did not ended up with smooth curves. Then, Pietro joined to support us for using phyton libraries. 
 
-![](images/design/griddesign.jpg)
+After some discussions, we decided to use QR code detection in opencv libraries for assigned geometric shapes as we did with the fiducials on Grasshopper-firefly application model during the Challenge-No2 and we wanted to combine that with Three JS Interactive Voxel Painter project as a grid base. We spent some hours on this approach. Finally, we decided that would take months to finalize the work. 
 
-Tolerance magnet test — laser cut machine
-
-![](images/design/magnettest.jpg)
-
-![](images/design/gridmagnets.jpg)
-
-![](images/design/vinylgrid2.jpg)
-
-![](images/design/vinylgrid.jpg)
-
-2. **Geometric pieces**
-
-Another problem that we faced with was the unsuitability of some geometric pieces which helps to generate the tile decoration design. Some geometric items has only a single magnet on them and this cause a unstable position on the gird. (During the presentation one of the constructive critic was to make the grid board double size in order tom prevent this problem, this could be a perfect solution for the problem).
-
-One of the discoveries was how to fix the magnets in an efficient way without wasting them. We made different holes in the acrylic board searching for the fittest size. Then we used vinyl to cover each side of the acrylic, so the magnets stay in place, but if you want to disassemble the pieces, you can take it off easily.
-
-![](images/design/design1.jpg)
-
-![](images/design/design2.jpg)
-
-3. **Tile design**
-
-The next step was making the patterns aligned with the photo-digitalisation process. As we took some tile decoration samples photos and we also worked on the various patterns options on 2D softwares. We used Illustrator and Inkscape to generate some patterns.
-
-![](images/design/tiledesign.jpg)
-
-![](images/design/bigpattern.png)
-
-4. **Photo digitalisation (vector)**
-
-The process of digitalization is a fascinating journey! After experimenting with various modules and testing different iterations, we decided to transition from an analogue, physical process to a digital process. To get started, we placed the tile in a well-lit environment, preferably with ambient lighting, to avoid shadows. A softbox proved to be a valuable tool to ensure the best possible scan results (and you can even build one yourself if you're feeling adventurous!). Once we took the picture and adjusted the contrast levels (using whichever tool you have available - we used Photoshop, but GIMP or Pixlr are great free alternatives), we were able to proceed only after obtaining a full black and white image.
-
-The next step involved uploading the image into vector-based software, such as Illustrator (or whichever tool you have available). Illustrator offers a built-in feature that enables image tracing to achieve a vectorized outcome. Although the results are not always perfect (and a lot of tweaking may be necessary), we were able to take the image trace and redraw it manually to achieve a cleaner stencil outline.
-
-Once we obtained the outlines, it was a breeze to scale them accordingly (in our case, the tiles were 150mm x 150mm) and get the negatives of the shapes. It's also essential to mirror the shape to get the required pattern when applying ink.
-
-Even though the process took us about an hour to complete, we are continually looking for ways to simplify the physical-to-digital step process so that anyone can do it from the comfort of their home. Furthermore, we aim to develop something that will enable users to visualize their patterns more quickly after getting aggregated.
-
-![](images/design/tilephoto.PNG)
-
-![](images/design/contrast.PNG)
-
-![](images/design/vectorizer.PNG)
-
-5. **Vinyl cutting**
-
-To make the stencil, we used a vinyl cutter. Through the Rhino file, we were able to cut the shapes. One thing to keep in mind is that you have to invert the image before cutting to be able to get your original shape on the tiles.
-
-With the vinyl cutter, you have to be sure to set the precise distance of the cutter to be able to cut the vinyl but not the plastic layer, so the shape is kept in place. Once we had the vinyl cut, we peeled with tweezers the shapes that would have to be covered with ink.
-
-![](images/design/vinylcutter.jpg)
-
-![](images/design/stencil.jpg)
-
-6. **Stencil**
-
-To transfer the shape to the tiles, first we placed the stencil on the screen printing frame. With tape, we covered every hole that remained in the sides of the vinyl, so the ink only passes through the precise holes.
-
-Then we placed the tiles, matching the vinyl. Once it is in place, we mix the ink with a bit of water to make it more liquid and place it in the frame. After the squeeze, we pressed the ink through the frame, covering the entire tile.
-
-![](images/design/stencil.jpg)
-
-![](images/design/stencilsq.jpg)
-
-![](images/design/stencil2.jpg)
-
-
-7. **Tile Production**
-
-  [squeege video](https://drive.google.com/file/d/142wLPfG5fM5Mu-XErmbFKV-Zxnlya-bf/view)
-
-8. **Building pattern**
-
-With a single tile design you can create myriad pattern designs.
-
-![](images/design/patt1.jpg)
-
-![](images/design/patt2.jpg)
-
-![](images/design/patt3.jpg)
-
-
-## #3 Final Product
-
-![](images/design/kit2.jpg)
-
-![](images/design/stencilsq.jpg)
-
-**Conclusion**
-
-To sum up, the grid board building process was a good experience to use the laser cutter after designing that on Rhinoceros and worked on the technical details to get the best results with the magnets we had to locate on the grid. The final result can be improved by using a thinner and mat acrylic and also by using smaller magnets. This will prevent the shades during the photo-digitalisation process and improve the quality of the edges of the tile decorations. Additionally, building it double size will provide all geometric shapes which helps to build the tile decoration completely stable on the grid.
-
-As a development plan; we can continue with 3D options but, we are not sure about how to integrate electronics on our project to develop for the next stages. One possibility would be to implement electronics in the digitalization process, making it more automatic and straight, so the interaction and the playful experience become more important.
+We went back to the basic idea to detect the edges of the each geometric shapes on the grid that we designed and decided to eliminate the shades and work on lighting in order to get the best results with this basic and simple method which can be done on OpenCv and Python.
