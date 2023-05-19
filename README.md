@@ -113,6 +113,14 @@ Grasshopper + Grid Shapes
 
 ## Hydraulic Tile mould
 
+Example of the Hydraulic process
+
+![](images/m1.jpg)
+
+![](images/m2.jpg)
+
+![](images/m3.jpg)
+
 Slicing shape mould
 
 ![](images/cura.jpg)
