@@ -27,22 +27,18 @@ We decided to continue the [first Challenge](https://github.com/paresmarc/tilede
 
 ![](images/tiledeco.jpg)
 
-As a group, after discussing about our common interest and as we want to work on water bricks to store domestic grey water, we decided to work on something related to modularity, interchangeability, personalisation of a product… We ended up with the idea of building a DIY toolkit which provides designing unique tile decorations and patterns made of those.
-
 
 ## #2 Project Development
 
-Firstly, we talked on 3D and 2D options and then we decided to focus on 2D option. For a simple tile decoration we need vinyl designs which needs to be sticked on stencil to transfer the ceramic ink. Instead of providing ready to use patterns, stickers, vinyls we preferred to work on a grid board which provides the user to make their own unique design.
-
-Digital Tiles is a concept of grid that made of acrylic and magnets and has geometric pieces which can be located on and stick by magnets to the grid in order to form various tile decorations.
+Firstly, we talked on 3D and 2D options and then we decided to focus on 2D option. Digital Tiles is a process to design tile paterns while playing with physical shapes. Then, generating a vectorised file you can 3D print a mould for hydraulic press production process to produce tiles in a easy and personal way.
 
 **Design Process**
-1. Open CV (Python) shape detection
-2. Geometric pieces
-3. Pattern design
-4. Photo digitalisation (vector)
-5. Vinyl cutting
-6. Stencil
+1. Open CV (Python)
+2. Edge detection digitalisation
+3. Vectorisation
+4. Magnetic Shapes and Grid
+5. Mould shape 3D printing
+6. Hydraulic press
 7. Tile production
 8. Building pattern
 
