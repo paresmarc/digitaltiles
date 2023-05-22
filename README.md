@@ -13,7 +13,8 @@ Challenge III: Digital Tiles
 Caglar / Ahmed / Marc
 
 **A DIY ToolKit to design and build tiles through a process that combines physical interaction and digitalisation.**
-**"Playing in the physical and converting it to the digital"**
+
+"Playing in the physical and converting it to the digital"
 
 1. [**Project Alignment**](#1-Project-alignment)
 2. [**Project Development**](#2-Project-development)
